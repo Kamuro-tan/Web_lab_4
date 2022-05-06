@@ -16,11 +16,13 @@ header .container, main .container, footer .container {
 header {
     background: white;
     overflow: auto;
+    padding: 10px;
+    border-bottom: 1px solid gray;
 }
 
 header h1 {
     float: left;
-    width: 570px;
+    font-size: 2em;
 }
 
 header nav {
@@ -28,9 +30,11 @@ header nav {
     width: 285px;
 }
 
+
 main {
     background: white;
     overflow: hidden;
+    padding: 10px 0;
 }
 
 main .left {
@@ -43,8 +47,22 @@ main .rigth {
     width: 285px;
 }
 
+main img {
+    padding: 10px;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main li {
+    margin-left: 20px;
+}
+
+
 footer {
     overflow: hidden;
+    padding-top: 10px;
 }
 
 footer .contact {
@@ -57,6 +75,33 @@ footer .sitemap {
     width: 285px;
 }
 
-h1, h2, h3, h4 {
+footer .sitemap ul {
+    column-count: 2;
+}
+
+
+h1, h2, h3, h4, h5 {
     font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 6px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+h5 {
+    font-size: 1.05em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
 }
